@@ -35694,5 +35694,9 @@ For example:\par
  options.setProperty("auth-token", "AJfKQV@&bBo@VX6Dcg");\par
  \par
  IotDevice iotDevice = new IotpDevice(options);\par
+\par
+============\par
+TSink<com.google.gson.JsonObject>\tab events(TStream<com.google.gson.JsonObject> stream, Function<com.google.gson.JsonObject,java.lang.String> eventId, UnaryOperator<com.google.gson.JsonObject> payload, Function<com.google.gson.JsonObject,java.lang.Integer> qos)\par
+Publish a stream's tuples as device events.\par
 }
  
